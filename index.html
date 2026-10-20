@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SaveSlot · Tu solución gamer</title>
+<meta name="description" content="SaveSlot reúne todos tus juegos y sus comunidades en un solo lugar: logros, guías, reseñas, IA y eventos.">
+<meta name="theme-color" content="#0E131A">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='2' y='2' width='28' height='28' rx='8' fill='%232F6FEB'/%3E%3Cpath d='M10 11h12v10H10zM13 11v4h6v-4' fill='none' stroke='%23fff' stroke-width='2.2'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+:root{--accent:#2F6FEB}
+html{scroll-behavior:smooth}
+body{margin:0;background:#0E131A}
+*:focus-visible{outline:2px solid #9CC2FF;outline-offset:3px}
+section[id],footer[id]{scroll-margin-top:24px}
+a{color:#9CC2FF}a:hover{color:#C9DDFF}
+</style>
+</head>
+<body>
+<div style="font-family: 'Figtree', system-ui, sans-serif; background: #0E131A; color: #E7ECF3; min-height: 100vh; line-height: 1.5">
+
+<!-- NAV -->
+<header style="border-bottom: 1px solid #1F2834; background: #0E131A">
+<nav aria-label="Principal" style="max-width: 1200px; margin: 0 auto; padding: 18px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="#inicio" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: #E7ECF3">
+<svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="2" width="28" height="28" rx="8" fill="var(--accent)"></rect><path d="M10 11h12v10H10z" fill="none" stroke="#fff" stroke-width="2.2" stroke-linejoin="round"></path><path d="M13 11v4h6v-4" fill="none" stroke="#fff" stroke-width="2.2" stroke-linejoin="round"></path></svg>
+<span style="font-weight: 800; font-size: 20px; letter-spacing: -0.01em">SaveSlot</span>
+</a>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 24px; font-size: 15px">
+<a href="#funciones" style="color: #B6C0CE; text-decoration: none">Funciones</a>
+<a href="#matchplay" style="color: #B6C0CE; text-decoration: none">MatchPlay</a>
+<a href="#eventos" style="color: #B6C0CE; text-decoration: none">Eventos</a>
+<a href="#equipo" style="color: #B6C0CE; text-decoration: none">Equipo</a>
+<a href="#unete" style="background: var(--accent); color: #fff; text-decoration: none; font-weight: 700; padding: 11px 18px; border-radius: 10px; min-height: 22px">Crear cuenta</a>
+</div>
+</nav>
+</header>
+
+<!-- HERO -->
+<section id="inicio" style="max-width: 1200px; margin: 0 auto; padding: 88px 24px 72px; display: flex; flex-wrap: wrap; align-items: center; gap: 56px">
+<div style="flex: 1 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 24px">
+<span style="align-self: flex-start; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #9CC2FF; background: #16233A; padding: 6px 12px; border-radius: 999px">Tu solución gamer</span>
+<h1 style="margin: 0; font-size: clamp(40px, 5.4vw, 68px); line-height: 1.04; font-weight: 800; letter-spacing: -0.025em">Todos tus juegos y sus comunidades, en un solo lugar.</h1>
+<p style="margin: 0; font-size: 19px; color: #B6C0CE; max-width: 34em">Deja de saltar entre wikis, foros y apps. SaveSlot reúne logros, guías, reseñas, dificultad y tiempo para completar de cada juego, y conecta tus cuentas para ver tu progreso completo.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px">
+<a href="#unete" style="background: var(--accent); color: #fff; text-decoration: none; font-weight: 700; font-size: 17px; padding: 15px 24px; border-radius: 12px">Empieza gratis</a>
+<a href="#funciones" style="border: 1px solid #2C3848; color: #E7ECF3; text-decoration: none; font-weight: 600; font-size: 17px; padding: 15px 24px; border-radius: 12px">Ver cómo funciona</a>
+</div>
+<p style="margin: 0; font-size: 14px; color: #8D99A8">Gratis · Vincular cuentas es opcional</p>
+</div>
+
+<!-- Hero mock: game page card -->
+<div style="flex: 1 1 420px; min-width: 0; background: #151C26; border: 1px solid #222D3B; border-radius: 20px; padding: 22px; display: flex; flex-direction: column; gap: 18px">
+<div style="display: flex; align-items: center; gap: 10px; background: #0E131A; border: 1px solid #263243; border-radius: 12px; padding: 12px 14px">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#B58CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+<span style="color: #8D99A8; font-size: 15px">"¿Cuánto dura la historia y qué tan difícil es?"</span>
+</div>
+<div style="display: flex; gap: 16px; align-items: stretch">
+<div style="width: 104px; min-height: 136px; flex: none; border-radius: 12px; background: #223047; display: flex; align-items: center; justify-content: center; color: #8D99A8; font-size: 12px; text-align: center; padding: 8px">[Portada]</div>
+<div style="display: flex; flex-direction: column; gap: 8px; min-width: 0">
+<span style="font-size: 22px; font-weight: 800">[Nombre del juego]</span>
+<span style="font-size: 14px; color: #8D99A8">Acción · PC, PlayStation, Xbox</span>
+<div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px">
+<span style="font-size: 13px; background: #1E2836; padding: 4px 10px; border-radius: 999px">Reseñas</span>
+<span style="font-size: 13px; background: #1E2836; padding: 4px 10px; border-radius: 999px">Guías</span>
+<span style="font-size: 13px; background: #1E2836; padding: 4px 10px; border-radius: 999px">Clips</span>
+<span style="font-size: 13px; background: #1E2836; padding: 4px 10px; border-radius: 999px">Logros</span>
+</div>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px">
+<div style="background: #0E131A; border-radius: 12px; padding: 12px">
+<div style="font-size: 12px; color: #8D99A8">Dificultad</div>
+<div style="font-size: 22px; font-weight: 800">7<span style="font-size: 14px; color: #8D99A8">/10</span></div>
+</div>
+<div style="background: #0E131A; border-radius: 12px; padding: 12px">
+<div style="font-size: 12px; color: #8D99A8">Historia</div>
+<div style="font-size: 22px; font-weight: 800">22 h</div>
+</div>
+<div style="background: #0E131A; border-radius: 12px; padding: 12px">
+<div style="font-size: 12px; color: #8D99A8">Completo</div>
+<div style="font-size: 22px; font-weight: 800">48 h</div>
+</div>
+</div>
+<div style="background: #0E131A; border-radius: 12px; padding: 14px; display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; justify-content: space-between; font-size: 14px"><span>Tus logros</span><span style="color: #4ADE80; font-weight: 700">34 / 50</span></div>
+<div style="height: 8px; background: #1E2836; border-radius: 999px; overflow: hidden"><div style="width: 68%; height: 100%; background: #22C55E"></div></div>
+<div style="font-size: 12px; color: #8D99A8">Sincronizado desde tus cuentas vinculadas</div>
+</div>
+<p style="margin: 0; font-size: 12px; color: #6F7B8B">Vista ilustrativa de la página de juego</p>
+</div>
+</section>
+
+<!-- PROBLEMA -->
+<section style="background: #121821; border-top: 1px solid #1F2834; border-bottom: 1px solid #1F2834">
+<div style="max-width: 1200px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 40px">
+<div style="max-width: 720px; display: flex; flex-direction: column; gap: 14px">
+<span style="font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #9CC2FF">El problema</span>
+<h2 style="margin: 0; font-size: clamp(30px, 3.6vw, 44px); line-height: 1.1; font-weight: 800; letter-spacing: -0.02em">Informarse sobre un juego no debería ser otro juego.</h2>
+<p style="margin: 0; font-size: 18px; color: #B6C0CE">La información está repartida, desordenada y a veces no es confiable. El resultado: abrumamiento y ganas de dejar el juego.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px">
+<div style="background: #0E131A; border: 1px solid #222D3B; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 44px; font-weight: 800; letter-spacing: -0.02em">4–5</span>
+<span style="color: #B6C0CE">canales distintos usa un jugador para informarse sobre sus juegos</span>
+</div>
+<div style="background: #0E131A; border: 1px solid #222D3B; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 44px; font-weight: 800; letter-spacing: -0.02em">72%</span>
+<span style="color: #B6C0CE">juega en dos o más plataformas, con el progreso partido en cada una</span>
+</div>
+<div style="background: #0E131A; border: 1px solid #222D3B; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 44px; font-weight: 800; letter-spacing: -0.02em">33%</span>
+<span style="color: #B6C0CE">siente frustración al jugar; un 24% ha llegado a abandonar por rabia</span>
+</div>
+</div>
+<p style="margin: 0; font-size: 13px; color: #6F7B8B">Fuente: Statista, 2024 (recopilado en el brief del proyecto).</p>
+</div>
+</section>
+
+<!-- FUNCIONES -->
+<section id="funciones" style="max-width: 1200px; margin: 0 auto; padding: 96px 24px; display: flex; flex-direction: column; gap: 48px">
+<div style="max-width: 720px; display: flex; flex-direction: column; gap: 14px">
+<span style="font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #9CC2FF">Qué hace SaveSlot</span>
+<h2 style="margin: 0; font-size: clamp(30px, 3.6vw, 44px); line-height: 1.1; font-weight: 800; letter-spacing: -0.02em">Información, comunidad y progreso. Juntos por fin.</h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px">
+
+<article style="background: #151C26; border: 1px solid #222D3B; border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<div style="width: 48px; height: 48px; border-radius: 12px; background: #16233A; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#9CC2FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"></rect><path d="M7 9h6M7 13h10M7 17h4"></path></svg></div>
+<h3 style="margin: 0; font-size: 21px; font-weight: 700">Página de juego completa</h3>
+<p style="margin: 0; color: #B6C0CE">Logros, dificultad del 1 al 10, guías, reseñas, plataformas y tiempo para completar la historia o el 100%.</p>
+</article>
+
+<article style="background: #151C26; border: 1px solid #222D3B; border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<div style="width: 48px; height: 48px; border-radius: 12px; background: #16233A; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#9CC2FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"></path><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"></path></svg></div>
+<h3 style="margin: 0; font-size: 21px; font-weight: 700">Cuentas vinculadas</h3>
+<p style="margin: 0; color: #B6C0CE">Conecta Steam, Battle.net, Xbox, Riot y Discord para ver tus logros, horas y lo que estás jugando en un solo perfil.</p>
+</article>
+
+<article style="background: #151C26; border: 1px solid #222D3B; border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<div style="width: 48px; height: 48px; border-radius: 12px; background: #16233A; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#9CC2FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg></div>
+<h3 style="margin: 0; font-size: 21px; font-weight: 700">Reseñas, guías y clips</h3>
+<p style="margin: 0; color: #B6C0CE">Escribe una reseña rápida estilo diario, comparte una guía o sube un clip. Si no has iniciado sesión, tu texto no se pierde.</p>
+</article>
+
+<article style="background: #151C26; border: 1px solid #222D3B; border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<div style="width: 48px; height: 48px; border-radius: 12px; background: #142A1D; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4ADE80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="6"></circle><path d="M8.5 14 7 22l5-3 5 3-1.5-8"></path></svg></div>
+<h3 style="margin: 0; font-size: 21px; font-weight: 700">Misiones y XP</h3>
+<p style="margin: 0; color: #B6C0CE">Completa misiones diarias y semanales, sube de nivel y usa tu XP para entrar gratis a sorteos.</p>
+</article>
+
+<article style="background: #151C26; border: 1px solid #222D3B; border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<div style="width: 48px; height: 48px; border-radius: 12px; background: #16233A; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#9CC2FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="4"></circle><path d="M2 21a7 7 0 0 1 14 0"></path><path d="M16 4a4 4 0 0 1 0 8M22 21a7 7 0 0 0-4-6.3"></path></svg></div>
+<h3 style="margin: 0; font-size: 21px; font-weight: 700">Perfil gamer</h3>
+<p style="margin: 0; color: #B6C0CE">Tus 4 juegos favoritos, géneros más jugados, lista de deseos, amigos y la actividad de "jugando ahora".</p>
+</article>
+
+<article style="background: #151C26; border: 1px solid #222D3B; border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<div style="width: 48px; height: 48px; border-radius: 12px; background: #16233A; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#9CC2FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7h3l3-4 3 4h9v12H3z"></path><circle cx="12" cy="13" r="3"></circle></svg></div>
+<h3 style="margin: 0; font-size: 21px; font-weight: 700">Juego random</h3>
+<p style="margin: 0; color: #B6C0CE">¿No sabes qué jugar? Elige un género y deja que SaveSlot te sorprenda con un juego nuevo.</p>
+</article>
+
+</div>
+</section>
+
+<!-- MATCHPLAY -->
+<section id="matchplay" style="background: #121821; border-top: 1px solid #1F2834; border-bottom: 1px solid #1F2834">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 56px">
+<div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
+<span style="align-self: flex-start; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #C8AEFF; background: #241B3A; padding: 6px 12px; border-radius: 999px">Con IA</span>
+<h2 style="margin: 0; font-size: clamp(30px, 3.6vw, 44px); line-height: 1.1; font-weight: 800; letter-spacing: -0.02em">MatchPlay: pregunta como le preguntarías a un amigo.</h2>
+<p style="margin: 0; font-size: 18px; color: #B6C0CE">Busca juegos describiendo lo que quieres, recibe recomendaciones según lo que juegas y retoma tus chats anteriores cuando quieras.</p>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; color: #D3DAE4">
+<li style="display: flex; gap: 10px; align-items: flex-start"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#B58CFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="m5 12 5 5 9-10"></path></svg>Recomendaciones personalizadas</li>
+<li style="display: flex; gap: 10px; align-items: flex-start"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#B58CFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="m5 12 5 5 9-10"></path></svg>Historial de chats y tendencias del momento</li>
+<li style="display: flex; gap: 10px; align-items: flex-start"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#B58CFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="m5 12 5 5 9-10"></path></svg>Respuestas en menos de 30 segundos</li>
+</ul>
+</div>
+<div style="flex: 1 1 420px; min-width: 0; background: #0E131A; border: 1px solid #2A2342; border-radius: 20px; padding: 22px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; align-items: center; gap: 10px; padding-bottom: 12px; border-bottom: 1px solid #1F2834">
+<div style="width: 34px; height: 34px; border-radius: 10px; background: #7C4DFF; display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M6 6l2 2M16 16l2 2M6 18l2-2M16 8l2-2"></path></svg></div>
+<span style="font-weight: 700">MatchPlay</span>
+</div>
+<div style="align-self: flex-end; max-width: 82%; background: var(--accent); color: #fff; padding: 12px 16px; border-radius: 16px 16px 4px 16px; font-size: 15px">Quiero un juego cooperativo corto para jugar con amigos este finde.</div>
+<div style="align-self: flex-start; max-width: 86%; background: #1A2130; padding: 12px 16px; border-radius: 16px 16px 16px 4px; font-size: 15px; color: #D3DAE4">Te propongo tres opciones de menos de 10 horas, con cooperativo en línea y dificultad media. ¿Juegan en PC o en consola?</div>
+<div style="display: flex; gap: 8px; align-items: center; background: #151C26; border: 1px solid #263243; border-radius: 12px; padding: 10px 12px; margin-top: 4px">
+<span style="flex: 1; color: #8D99A8; font-size: 15px">Escribe tu pregunta…</span>
+<span style="width: 34px; height: 34px; border-radius: 9px; background: #7C4DFF; display: flex; align-items: center; justify-content: center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span>
+</div>
+</div>
+</div>
+</section>
+
+<!-- EVENTOS -->
+<section id="eventos" style="max-width: 1200px; margin: 0 auto; padding: 96px 24px; display: flex; flex-direction: column; gap: 44px">
+<div style="max-width: 720px; display: flex; flex-direction: column; gap: 14px">
+<span style="font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #9CC2FF">Eventos virtuales</span>
+<h2 style="margin: 0; font-size: clamp(30px, 3.6vw, 44px); line-height: 1.1; font-weight: 800; letter-spacing: -0.02em">Compite y gana sin salir de SaveSlot.</h2>
+<p style="margin: 0; font-size: 18px; color: #B6C0CE">Torneos y sorteos con reglas claras y el costo siempre visible antes de inscribirte.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px">
+<article style="background: #151C26; border: 1px solid #222D3B; border-radius: 18px; padding: 30px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 12px">
+<h3 style="margin: 0; font-size: 24px; font-weight: 800">Torneos</h3>
+<span style="font-size: 13px; font-weight: 700; color: #9CC2FF; background: #16233A; padding: 5px 10px; border-radius: 999px">Inscripción [VALOR]</span>
+</div>
+<p style="margin: 0; color: #B6C0CE">Organizados por marcas junto a organizadores independientes, o por las propias desarrolladoras como torneos oficiales.</p>
+<p style="margin: 0; font-size: 15px; color: #8D99A8">Patrocina: [MARCA] · Organiza: [ORGANIZADOR]</p>
+</article>
+<article style="background: #151C26; border: 1px solid #222D3B; border-radius: 18px; padding: 30px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 12px">
+<h3 style="margin: 0; font-size: 24px; font-weight: 800">Sorteos</h3>
+<span style="font-size: 13px; font-weight: 700; color: #4ADE80; background: #142A1D; padding: 5px 10px; border-radius: 999px">Gratis con XP</span>
+</div>
+<p style="margin: 0; color: #B6C0CE">Participa gratis canjeando tu XP o compra una entrada. Siempre sabrás cuánto cuesta y qué puedes ganar.</p>
+<p style="margin: 0; font-size: 15px; color: #8D99A8">Premio del mes: [PREMIO]</p>
+</article>
+</div>
+</section>
+
+<!-- COMO EMPEZAR -->
+<section style="background: #121821; border-top: 1px solid #1F2834; border-bottom: 1px solid #1F2834">
+<div style="max-width: 1200px; margin: 0 auto; padding: 88px 24px; display: flex; flex-direction: column; gap: 40px">
+<h2 style="margin: 0; font-size: clamp(28px, 3.2vw, 40px); line-height: 1.1; font-weight: 800; letter-spacing: -0.02em">Empieza en tres pasos</h2>
+<ol style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px">
+<li style="display: flex; flex-direction: column; gap: 10px">
+<span style="width: 40px; height: 40px; border-radius: 999px; background: var(--accent); color: #fff; font-weight: 800; display: flex; align-items: center; justify-content: center">1</span>
+<h3 style="margin: 0; font-size: 20px; font-weight: 700">Crea tu cuenta</h3>
+<p style="margin: 0; color: #B6C0CE">Regístrate con tu correo o con Discord en menos de un minuto.</p>
+</li>
+<li style="display: flex; flex-direction: column; gap: 10px">
+<span style="width: 40px; height: 40px; border-radius: 999px; background: var(--accent); color: #fff; font-weight: 800; display: flex; align-items: center; justify-content: center">2</span>
+<h3 style="margin: 0; font-size: 20px; font-weight: 700">Vincula tus plataformas</h3>
+<p style="margin: 0; color: #B6C0CE">Conecta las cuentas que quieras. Puedes saltarte este paso y hacerlo después.</p>
+</li>
+<li style="display: flex; flex-direction: column; gap: 10px">
+<span style="width: 40px; height: 40px; border-radius: 999px; background: var(--accent); color: #fff; font-weight: 800; display: flex; align-items: center; justify-content: center">3</span>
+<h3 style="margin: 0; font-size: 20px; font-weight: 700">Juega y gana XP</h3>
+<p style="margin: 0; color: #B6C0CE">Consulta, escribe reseñas y cumple misiones para subir de nivel.</p>
+</li>
+</ol>
+</div>
+</section>
+
+<!-- CTA -->
+<section id="unete" style="max-width: 1200px; margin: 0 auto; padding: 96px 24px">
+<div style="background: #16233A; border: 1px solid #23395C; border-radius: 24px; padding: clamp(32px, 5vw, 64px); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 32px">
+<div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-size: clamp(30px, 3.6vw, 44px); line-height: 1.1; font-weight: 800; letter-spacing: -0.02em">Guarda tu partida. Potencia tu juego.</h2>
+<p style="margin: 0; font-size: 18px; color: #C3D2E6">Únete a SaveSlot y deja de buscar en cinco sitios distintos.</p>
+</div>
+<form id="registro" novalidate style="flex: 1 1 360px; min-width: 0; display: flex; flex-wrap: wrap; gap: 10px">
+<label for="correo" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Correo electrónico</label>
+<input id="correo" type="email" placeholder="tu@correo.com" style="flex: 1 1 220px; min-width: 0; min-height: 52px; box-sizing: border-box; font: inherit; font-size: 16px; background: #0E131A; color: #E7ECF3; border: 1px solid #2C3848; border-radius: 12px; padding: 0 16px">
+<button type="submit" style="min-height: 52px; font: inherit; font-size: 16px; font-weight: 700; background: var(--accent); color: #fff; border: 0; border-radius: 12px; padding: 0 22px; cursor: pointer">Crear cuenta gratis</button>
+<p id="registro-msg" role="status" aria-live="polite" style="flex-basis:100%;margin:4px 0 0;font-size:15px;color:#C3D2E6;min-height:22px"></p>
+</form>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer id="equipo" style="border-top: 1px solid #1F2834">
+<div style="max-width: 1200px; margin: 0 auto; padding: 48px 24px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 32px">
+<div style="flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 10px">
+<span style="font-weight: 800; font-size: 20px">SaveSlot</span>
+<p style="margin: 0; color: #8D99A8; font-size: 15px; max-width: 30em">Proyecto académico sin fines comerciales del programa de Creación Digital, Universidad El Bosque (Bogotá).</p>
+<p style="margin: 0; color: #8D99A8; font-size: 15px">Andrés Hernández · Kenneth Velásquez · Juan Vigoya</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 48px; font-size: 15px">
+<div style="display: flex; flex-direction: column; gap: 8px">
+<span style="font-weight: 700">Producto</span>
+<a href="#funciones" style="color: #B6C0CE; text-decoration: none">Funciones</a>
+<a href="#matchplay" style="color: #B6C0CE; text-decoration: none">MatchPlay</a>
+<a href="#eventos" style="color: #B6C0CE; text-decoration: none">Eventos</a>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<span style="font-weight: 700">Contacto</span>
+<span style="color: #B6C0CE">[CORREO]</span>
+<span style="color: #B6C0CE">[REDES]</span>
+<a href="#inicio" style="color: #B6C0CE; text-decoration: none">Privacidad y términos</a>
+</div>
+</div>
+</div>
+</footer>
+
+</div>
+<script>
+document.getElementById('registro').addEventListener('submit',function(e){
+  e.preventDefault();
+  var input=document.getElementById('correo'),msg=document.getElementById('registro-msg');
+  var ok=/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(input.value.trim());
+  if(!ok){msg.style.color='#FCA5A5';msg.textContent='Escribe un correo válido, por ejemplo tu@correo.com';input.focus();return;}
+  msg.style.color='#86EFAC';msg.textContent='¡Listo! Te avisaremos cuando SaveSlot abra el registro.';input.value='';
+});
+</script>
+</body>
+</html>
